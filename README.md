@@ -103,7 +103,7 @@ ecommerce-qa-automation/
 │   └── Test_Plan.md                   # Formal QA Test Plan (strategy, scope, criteria)
 │
 ├── test-cases/
-│   └── Test_Cases.csv                 # 50 manual test cases (Excel-compatible CSV)
+│   └── Test_Cases.csv                 # 54 manual test cases (Excel-compatible CSV)
 │
 ├── bug-reports/
 │   └── Bug_Report.md                  # Confirmed persona defects & exploratory findings
@@ -118,7 +118,12 @@ ecommerce-qa-automation/
 │   └── test_logout.py                 # Automated tests: Session logout & route guards
 │
 ├── screenshots/
-│   └── .gitkeep                       # Destination folder for failure screenshots
+│   ├── .gitkeep                       # Directory anchor
+│   ├── evidence_bug_001_problem_user_catalog.png # Defect evidence: 404 dog images
+│   ├── evidence_bug_002_problem_user_checkout.png # Defect evidence: checkout error
+│   ├── sample_failure_hook_demo.png   # Auto-captured failure hook demonstration
+│   ├── standard_user_catalog.png      # Standard user verified catalog view
+│   └── standard_user_order_complete.png # Order completion confirmation
 │
 ├── reports/
 │   └── QA_Test_Report.md              # Detailed Test Execution Report with actual results

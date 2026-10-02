@@ -29,6 +29,9 @@ In accordance with strict QA industry integrity standards:
 - **Reproducibility**: 100% reproducible.
 - **Evidence**:
   - Image tag DOM: `<img class="inventory_item_img" src="/static/media/sl-404.168b1cce.jpg">` across all six items.
+  - Screenshot Evidence: `screenshots/evidence_bug_001_problem_user_catalog.png`
+  
+  ![BUG-AUT-001 Catalog Broken Images](../screenshots/evidence_bug_001_problem_user_catalog.png)
 - **Status**: Open / Backlog
 
 ---
@@ -51,7 +54,11 @@ In accordance with strict QA industry integrity standards:
 - **Expected Result**: The Last Name input accepts keystrokes, and clicking Continue proceeds to Checkout Step Two (Overview).
 - **Actual Result**: The input field rejects or fails to bind text input. Clicking Continue triggers the validation banner: `"Error: Last Name is required"`, completely preventing the user from placing an order.
 - **Reproducibility**: 100% reproducible.
-- **Evidence**: Field `#last-name` value remains empty or uneditable via standard DOM events.
+- **Evidence**:
+  - Field `#last-name` value remains empty or uneditable via standard DOM events.
+  - Screenshot Evidence: `screenshots/evidence_bug_002_problem_user_checkout.png`
+
+  ![BUG-AUT-002 Checkout Last Name Error](../screenshots/evidence_bug_002_problem_user_checkout.png)
 - **Status**: Open / In Review
 
 ---

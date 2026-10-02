@@ -53,9 +53,12 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
-# Test run screenshots (keep folder structure intact via .gitkeep)
-screenshots/*.png
+# Test run dynamic failure screenshots (auto-captured at runtime by PyTest hook)
+screenshots/FAIL_*.png
 !screenshots/.gitkeep
+!screenshots/evidence_*.png
+!screenshots/standard_*.png
+!screenshots/sample_*.png
 
 # Local logs & temporary output
 *.log
